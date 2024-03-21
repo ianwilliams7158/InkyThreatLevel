@@ -8,4 +8,7 @@ This project uses a:
 Pi Zero W with pre soldered headers - https://shop.pimoroni.com/products/raspberry-pi-zero-w
 InkyPhat Red - https://shop.pimoroni.com/products/inky-phat
 
+Images need to be stored in the /home/pi/inky/images/ folder.
+inky_display.py can be stored anywhere.  I store it in the /home/pi/ folder.
+
 This was a fun, and sometimes frustrating, little project for me.  I hope someone else finds it useful!
