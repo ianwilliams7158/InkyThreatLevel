@@ -10,7 +10,7 @@ def update_image():
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
 
-    sentence = soup.find(text="The threat to the UK (England, Wales, Scotland and Northern Ireland) from terrorism is ")
+    sentence = soup.find(string="The threat to the UK (England, Wales, Scotland and Northern Ireland) from terrorism is ")
     
     if sentence:
         next_word = sentence.find_next("strong")
